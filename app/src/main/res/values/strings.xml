@@ -8,4 +8,6 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
+    <string name="sign_in_warning">Before Start You Should Sign In First</string>
+    <string name="sign_in">Sign In</string>
 </resources>

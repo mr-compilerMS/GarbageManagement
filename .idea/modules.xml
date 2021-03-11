@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Garbage_Management.iml" filepath="$PROJECT_DIR$/.idea/modules/Garbage_Management.iml" group="Garbage_Management" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Garbage Management/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Garbage_Management.iml" filepath="$PROJECT_DIR$/.idea/modules/Garbage_Management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Garbage_Management.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Garbage_Management.app.iml" />
     </modules>
   </component>
 </project>

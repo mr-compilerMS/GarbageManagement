@@ -25,7 +25,7 @@ public class HomeFragment extends Fragment {
         getView().findViewById(R.id.addProduct).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(),AddNewProduct.class));
+                startActivity(new Intent(getContext(), AddNewGarbage.class));
             }
         });
     }

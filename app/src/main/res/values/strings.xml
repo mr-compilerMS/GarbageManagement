@@ -10,13 +10,20 @@
     <string name="menu_home">Home</string>
     <string name="sign_in_warning">Before Start You Should Sign In First</string>
     <string name="sign_in">Sign In</string>
-    <string name="add_product">Add Product</string>
-    <string name="add_new_product">Add New Product</string>
+    <string name="add_garbage">Add Garbage</string>
+    <string name="add_new_garbage">Add New Garbage</string>
     <string name="title_activity_maps">Map</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="enter_garbage_type">Enter Garbage Type :</string>
     <string name="enter_stock_size">Enter Stock Size :</string>
-    <string name="enter_price">Enter Price :</string>
+    <string name="enter_price">Enter Price Per :</string>
     <string name="select_location">Select Location :</string>
+    <string name="user">User</string>
+    <string name="consumer">Consumer</string>
+    <string name="select_type">Select Type :</string>
+    <string name="city">City :</string>
+    <string name="name">Name :</string>
+    <string name="mobile_no">Mobile No :</string>
+    <string name="not_valid_input">Please Enter Valid Inputs</string>
 </resources>

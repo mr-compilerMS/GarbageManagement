@@ -1,5 +1,6 @@
 package com.msoft.garbagemanagement;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 
@@ -12,6 +13,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -21,18 +23,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-//        if(FirebaseAuth.getInstance().getCurrentUser()==null){
-//            startActivity(new Intent(this, LoginActivity.class));
-//            finish();
-//        }
+        if(FirebaseAuth.getInstance().getCurrentUser()==null){
+            startActivity(new Intent(this, LoginActivity.class));
+            finish();
+        }
 
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home)
                 .setOpenableLayout(drawer)

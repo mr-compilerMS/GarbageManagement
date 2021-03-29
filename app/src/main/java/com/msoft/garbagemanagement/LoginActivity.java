@@ -50,8 +50,15 @@ public class LoginActivity extends AppCompatActivity {
             IdpResponse response = IdpResponse.fromResultIntent(data);
 
             if (resultCode == RESULT_OK) {
+                if(response.isNewUser()){
+                    Intent i=new Intent(this,UserRegistration.class);
+                    startActivity(i);
+                    finish();
+                }
+                else{
                 startActivity(new Intent(this,MainActivity.class));
                 finish();
+                }
             } else {
                 Toast.makeText(this,"Unable To Sign In Please Try Again",Toast.LENGTH_SHORT).show();
             }

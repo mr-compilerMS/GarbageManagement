@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.msoft.garbagemanagement">
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:fullBackupContent="false"
@@ -10,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".UserRegistration"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -18,7 +21,7 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".AddNewProduct" />
+        <activity android:name=".AddNewGarbage" />
         <activity android:name=".LoginActivity" />
         <activity
             android:name=".MainActivity"
